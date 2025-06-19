@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuración del Router MikroTik (ahora con variables de entorno)
-MIKROTIK_HOST = os.getenv('MIKROTIK_VPN_IP', 'http://10.0.99.1')
+MIKROTIK_HOST = 'http://192.168.88.1'  # Dirección REST API del router
 USERNAME = os.getenv('MIKROTIK_USER', 'admin')
 PASSWORD = os.getenv('MIKROTIK_PASSWORD', '1234567890')
 REQUEST_TIMEOUT = 10  # segundos
