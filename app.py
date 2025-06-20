@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuración del Router MikroTik (ahora con variables de entorno)
-MIKROTIK_HOST = 'https://941b-200-68-173-6.ngrok-free.app'  # Dirección REST API del router
+MIKROTIK_HOST = 'https://f12c-2605-59c8-74d2-e610-00-c8b.ngrok-free.app'  # Dirección REST API del router
 USERNAME = os.getenv('MIKROTIK_USER', 'admin')
 PASSWORD = os.getenv('MIKROTIK_PASSWORD', '1234567890')
 REQUEST_TIMEOUT = 10  # segundos
